@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.head{
+    color: brown;
+}
+section{
+   display: flex;
+}
+.half{
+    width: 50%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
