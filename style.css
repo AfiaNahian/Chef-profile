@@ -14,7 +14,7 @@ p{
 .flexible-con{
    display: flex;
    padding: 10%;
-   margin-bottom: 30px;
+   margin-bottom: 10px;
    
 }
 .half{
@@ -37,10 +37,12 @@ p{
 .first{
     background-image: url(images/Frame1.jpg);
     background-repeat: no-repeat;
+    margin: 25px;
 }
 .second{
     background-image: url(images/Frame2.png);
     background-repeat: no-repeat;
+    margin: 25px;
 }
 footer{
     background-color: black;
@@ -59,10 +61,15 @@ footer{
     border-radius: 5px; 
     margin: 2%;
    }
-
+.card p{
+    text-align: justify;
+}
+.detail{
+    padding: 20px;
+}
 .pic img{
- width: 85%;
- padding: 20px;
+ width: 90%;
+ padding: 10px;
 }
 .social-media-box{
     padding-top:2%;
@@ -70,11 +77,8 @@ footer{
     width: 80%;
     height: 200px;
     border-radius: 25px;
-    margin-right:5%;
-    margin-left:5%;
-    margin-bottom:5%;
     margin:10% 10% 10% 10%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.598) 0px 7px 29px 0px;
     display:flex;
 }
 .social-media-bar{
@@ -94,7 +98,7 @@ footer{
 
 }
 .socialmedia-p-font{
-    text-align: center;
+   text-align: center;
    padding: 0px; 
    margin: 0px;
 
